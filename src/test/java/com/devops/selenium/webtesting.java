@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class webtesting
 {
-    @org.testng.annotations.Test
+ 
     public static void main(String[] args)
     {
     	String driverfile =System.getProperty("user.dir")+"/Driver/chromedriver";
