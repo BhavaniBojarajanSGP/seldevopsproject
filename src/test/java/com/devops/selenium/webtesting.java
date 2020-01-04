@@ -7,11 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
 public class webtesting
 {
- 
-    public static void main(String[] args)
+	@Test
+    public void test()
     {
     	String driverfile =System.getProperty("user.dir")+"/Driver/chromedriver";
         System.setProperty("webdriver.chrome.driver",driverfile);
